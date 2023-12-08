@@ -1,0 +1,64 @@
+body {
+    background-color: #a2ca96;
+    padding: 0;
+    margin: 0;
+}
+
+#game-container {
+    background: url("images/Background.png") no-repeat left bottom;
+    background-size: cover;
+    position: relative;
+    height: 75vh;
+}
+
+#tapis {
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+#accuracy {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 40px;
+}
+
+#combo {
+    position: absolute;
+    top: 60px;
+    right: 16px;
+    font-size: 25px;
+}
+
+/* Poubelle footer */
+.poubelle {
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.poubelle > img {
+    width: 25vh;
+    height: 25vh;
+}
+
+.poubelle-name {
+    position: inherit;
+    z-index: 1;
+    font-size: larger;
+    text-align: center;
+}
+
+#verte {
+    left: 30%;
+}
+#jaune {
+    left: 60%;
+}
+#grise {
+    left: 90%vh;
+}

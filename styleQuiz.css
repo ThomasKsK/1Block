@@ -1,0 +1,1047 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    align-items: center;
+    padding: 10px 200px;
+    height: 15%;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(64, 159, 127);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: rgb(64, 159, 127);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: blueviolet;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/Untitled_Made_with_FlexClip.gif) no-repeat center center fixed;
+    background-size: cover; /* ou '100% 100%' selon votre préférence */
+    background-position: center; /* ajustez au besoin */
+    /* background-attachment: fixed; */ /* décommentez si vous voulez que le GIF ne défile pas */
+}
+
+
+.container > div {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.container h2 {
+    color: whitesmoke;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container h2 span {
+    color: rgb(17, 110, 223);
+    font-size: 3.5em;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.container h3 {
+    color: azure;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container .button {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: 30px;
+    text-decoration: none;
+    background-color: rgb(17, 110, 223);
+    border-radius: 20px;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.container .button:hover {
+    background-color: rgb(5, 78, 167);
+    transform: scale(1.05);
+}
+
+
+.container2{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/glace.webp) no-repeat center center fixed;
+    background-size: cover; /* ou '100% 100%' selon votre préférence */
+    background-position: center; /* ajustez au besoin */
+    /* background-attachment: fixed; */ /* décommentez si vous voulez que le GIF ne défile pas */
+}
+
+.container2 > div {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.container2 h2 {
+    color: whitesmoke;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container2 h2 span {
+    color: rgb(17, 110, 223);
+    font-size: 3.5em;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.container2 h3 {
+    color: azure;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container2 .button {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: 30px;
+    text-decoration: none;
+    background-color: rgb(17, 110, 223);
+    border-radius: 20px;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.container2 .button:hover {
+    background-color: rgb(5, 78, 167);
+    transform: scale(1.05);
+}
+.container3{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/innodations.webp) no-repeat center center fixed;
+    background-size: cover; /* ou '100% 100%' selon votre préférence */
+    background-position: center; /* ajustez au besoin */
+    /* background-attachment: fixed; */ /* décommentez si vous voulez que le GIF ne défile pas */
+}
+
+.container3 > div {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.container3 h2 {
+    color: whitesmoke;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container3 h2 span {
+    color: rgb(17, 110, 223);
+    font-size: 3.5em;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.container3 h3 {
+    color: azure;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container3 .button {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: 30px;
+    text-decoration: none;
+    background-color: rgb(17, 110, 223);
+    border-radius: 20px;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.container3 .button:hover {
+    background-color: rgb(5, 78, 167);
+    transform: scale(1.05);
+}
+
+.icons a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.6em;
+    padding-right: 28px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    color: rgb(5, 78, 167);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.cards {
+    background-color: rgb(233, 229, 223);
+    padding: 100px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 350px;
+    box-shadow: 0 5px 19px rgb(212, 216, 220);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+.card:hover,
+.card2:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    color: rgb(5, 78, 167);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: rgb(5, 78, 167);
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.projects {
+    background-color: rgb(4, 15, 54);
+    padding: 100px 0;
+}
+
+.card2 {
+    background-color: white;
+    width: 350px;
+    box-shadow: 0 5px 19px rgb(212, 216, 220);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info2 {
+    text-align: center;
+}
+
+.info2 h3 {
+    color: rgb(5, 78, 167);
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.info2 p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.textitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.textitle span {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.textitle a {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.textitle a:hover {
+    color: blueviolet;
+}
+
+.contact {
+    background-color: rgb(233, 229, 223);
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact form input,
+.contact form textarea {
+    margin: 10px 0;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact form button {
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    background-color: rgb(17, 110, 223);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+    background-color: rgb(5, 78, 167);
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(4, 15, 54);
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+.skills {
+    background-color: rgb(233, 229, 223);
+    padding: 100px 0;
+}
+
+.skill {
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress {
+    width: 100%;
+}
+
+
+.skill h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: rgb(5, 78, 167);
+}
+
+.progress {
+    background-color: #f3f3f3;
+    border-radius: 50px;
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: rgb(17, 110, 223);
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#languages {
+    background-color: rgb(233, 229, 223);
+    padding: 100px 0;
+}
+
+#languages .content {
+    display: flex;
+    justify-content: center;
+}
+
+#languages ul {
+    list-style-type: none;
+}
+
+#languages ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#languages ul li i {
+    margin-right: 10px;
+}
+
+#download-cv {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(17, 110, 223);
+    border-radius: 20px;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+#download-cv:hover {
+    background-color: rgb(5, 78, 167);
+    transform: scale(1.05);
+}
+
+#languages {
+    background-color: #add8e6; /* Couleur de fond de la section */
+    padding: 20px;
+}
+
+.lang-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-item {
+    text-align: center;
+    width: 30%;
+}
+
+.lang-item i {
+    margin-bottom: 10px;
+}
+
+.lang-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.lang-item p {
+    font-size: 1.2em;
+    color: #666;
+}
+.logo img {
+    max-width: 150px; /* Taille maximale du logo */
+    max-height: 150 px; /* Hauteur maximale */
+    margin-right: 10px; /* Espacement à droite */
+    /* Ajoutez d'autres styles si nécessaire */
+}
+
+body {
+    background: url('images\Untitled_Made_with_FlexClip.mp4') no-repeat center center fixed;
+    background-size: cover;
+    color: #503d33; /* Marron foncé pour le texte */
+}
+
+header, .navigation a {
+    color: #503d33; /* Marron foncé pour le texte dans l'en-tête */
+}
+
+.logo {
+    color: #f4a261; /* Orange sable pour le logo */
+}
+
+.navigation a:hover {
+    color: #e76f51; /* Terre cuite pour le survol des liens */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Blanc légèrement transparent */
+}
+
+.container .button, #download-cv, .contact form button {
+    background-color: #e76f51; /* Terre cuite pour les boutons */
+    color: white; /* Texte blanc pour le contraste */
+}
+
+.container .button:hover, #download-cv:hover, .contact form button:hover {
+    background-color: #f4a261; /* Orange sable pour le survol des boutons */
+}
+
+.cards, .projects, .contact {
+    background-color: #fae8e0; /* Beige clair */
+}
+
+.title, .info h3, .info2 h3, .skill h3, .lang-item h3 {
+    color: #2a9d8f; /* Teal pour les titres */
+}
+
+.progress-bar {
+    background-color: #e9c46a; /* Jaune sable */
+}
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .container > div {
+        padding: 30px;
+    }
+
+    .container h2 {
+        font-size: 1.6em;
+    }
+
+    .container h2 span {
+        font-size: 3em;
+    }
+
+    .container h3 {
+        font-size: 1.2em;
+    }
+
+    .container .button {
+        font-size: 1em;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+
+    .icons a {
+        font-size: 1.2em;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .card {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .card2 {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+}
+
+/* Animations au survol pour les liens */
+.navigation a:hover {
+    color: #e76f51; /* Couleur au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Bouton avec animation au survol */
+.button:hover {
+    background-color: #f4a261; /* Changement de couleur */
+    transform: scale(1.1); /* Agrandissement */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Palette de couleurs pour le désert */
+.container {
+    background-color: rgba(244, 164, 96, 0.8); /* Fond orange sable */
+    color: #503d33; /* Texte marron foncé */
+}
+
+/* Palette de couleurs pour la glace */
+.container2 {
+    background-color: rgba(173, 216, 230, 0.8); /* Fond bleu clair */
+    color: #2b3d52; /* Texte bleu foncé */
+}
+
+/* Palette de couleurs pour l'inondation */
+.container3 {
+    background-color: rgba(32, 178, 170, 0.8); /* Fond vert d'eau */
+    color: #1d2731; /* Texte bleu très foncé */
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.animated {
+    opacity: 1;
+}
+header, .navigation {
+    transition: background-color 0.3s ease;
+}
+
+/* Styles pour la section quiz */
+.quiz-section {
+    min-height: 100vh;
+    background-color: #fff; /* Couleur de fond pour la section quiz */
+    /* Autres styles au besoin */
+}
+
+.quiz-section {
+    min-height: 100vh;
+    background-color: #f3f3f3; /* Couleur de fond neutre */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-section .container5 {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.quiz-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#submit-quiz {
+    background-color: #4CAF50; /* Couleur verte pour le bouton */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#submit-quiz:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.footer-section a {
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+
+/* Pour les icônes des réseaux sociaux */
+.footer-section i {
+    font-size: 1.4em;
+    margin-right: 10px;
+    color: #ccc;
+}
+
+.footer-section i:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
+.mail{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+#about{
+    cursor: pointer;
+}
+
+#wrapper{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url("hero-img.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+#form-box{
+/*    background-color: aqua;*/
+    padding:1%;
+    top:50%;
+    position: absolute;
+    left:40%;
+}
+
+.choose-lang{
+    text-decoration: none;
+    color: black;
+    background-color:#fff;
+    margin-left: 30px;
+    border: 2px solid #FF9933;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: monospace;
+/*    letter-spacing: 1.5px;*/form-box
+/*    font-weight: 400;*/
+    transition: background-color 0.3s,border 0.2s, color 0.2s;
+}
+
+.choose-lang:hover{
+    background-color: #FF9933;
+    color:#fff;
+    cursor: pointer;
+/*    width: 120px;*/
+    font-size: 110%;
+}
+
+#language{
+    background-color:white;
+    padding:12px;
+    border-radius: 5px;
+    cursor:pointer;
+    border:2px solid black;
+
+
+}
+
+#language:hover{
+    background-color:#fff;
+}
+
+#language option{
+    background-color: #fff;
+}
+
+.quiz{
+    /* background-color: #fff; */
+    text-align: center;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    height: 100vh;
+
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir l'élément */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+}
+
+#info{
+    height:25px;
+}
+
+#score{
+    width:50%;
+    float:left;
+    font-size: 25px;
+
+}
+
+#ques-left{
+    width:50%;
+    float:left;
+    font-size:25px;
+
+}
+
+#ques-view{
+/*    background-color:aqua;*/
+    height: 35px;
+    margin-top: 10px;
+    padding: 2px;
+}
+.ques-circle{
+    float: left;
+    border-radius: 50%;
+    width: 35px;
+    height: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.correct{
+    background-color: #2ecc71;
+}
+.incorrect{
+    background-color: #fc5c65;
+    color: #fff;
+}
+
+.question{
+/*    background-color: antiquewhite;*/
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: .13em;
+}
+
+.choice{
+    background-color: #fff;
+    padding: 3%;
+    width: 100%;        /* Set width to full container width */
+    text-align: center; /* Center text inside the choice */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+.options{
+    display:flex;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+
+    align-items: center; /* Cela centrera le contenu verticalement */
+    justify-content: center; /* Cela centrera le contenu horizontalement */
+}
+/* Change apparence of radio button */
+.options input[type=radio] {
+     opacity: 0;
+     position: fixed;
+     width: 0;
+}
+.options label {
+    display: flex;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    width: 75%;
+
+    align-items: center; /* Cela centrera le contenu verticalement */
+    justify-content: center; /* Cela centrera le contenu horizontalement */
+
+}
+/* Change color when selected */
+.options input[type="radio"]:checked + label {
+    background-color:#bfb;
+    border-color: #4c4;
+}
+.options input[type="radio"]:focus + label {
+    border: 2px dashed #444;
+}
+.options label:hover {
+    background-color: #dfd;
+    cursor: pointer;
+}
+
+.ans-btn{
+    padding: 2%;
+}
+
+.submit-answer{
+    background-color:white;
+    border: 2px solid #FF9933;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: monospace;
+    transition: background-color 0.3s,border 0.2s, color 0.2s;
+}
+
+.submit-answer:hover{
+
+    background-color: #FF9933;
+    padding: 16px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.view-results{
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    border: 2px solid #FF9933;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: monospace;
+    transition: background-color 0.3s,border 0.2s, color 0.2s;
+}
+
+.view-results:hover{
+    background-color: #FF9933;
+    padding: 16px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/*Final Results*/
+
+.final-result{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    height: 100vh;
+}
+.solved-ques-no{
+    padding: 10px;
+}
+
+.right-wrong{
+    padding: 10px;
+}
+
+#display-final-score{
+    padding: 5%;
+}
+.remark{
+    padding: 5%
+}
+#restart{
+    background-color:#ff9933;
+    margin-left: 30px;
+    border: 2px solid #FF9933;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 80%;
+    transition: background-color 0.3s,border 0.2s, color 0.2s;
+}
+
+#restart:hover{
+    background-color: #FF9933;
+    color:#fff;
+    cursor: pointer;
+/*    width: 120px;*/
+    font-size: 90%;
+}
+
+#correct-answer{
+    font-family: monospace;
+    font-size: xx-large;
+    color:#dfd;
+}
+
+#next-question{
+    margin-top: 100px;
+    width: 250px;
+    height: 50px;
+}
+#next-question:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1250px) {
+    .options{
+        margin-left: 8%
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .options{
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .options{
+        display: block;
+        margin-top: 3%;
+
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .options{
+        margin-top: 3%;
+
+    }
+
+    .choose-lang{
+        display: block;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+    #language{
+        display: block;
+    }
+}
